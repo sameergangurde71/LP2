@@ -1,7 +1,7 @@
 print("hello world")
 print("This is an example of selection sort")
 
-def selectionSort():
+def selectionSort(arr):
     for i in range (len(arr)):
         min = float('inf')
         for j in range(i+1,len(arr)):
