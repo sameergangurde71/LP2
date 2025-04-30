@@ -1,5 +1,5 @@
 print("hello world")
-print("te")
+print("This is an example of selection sort")
 
 def selectionSort():
     for i in range (len(arr)):
@@ -8,4 +8,8 @@ def selectionSort():
           if(arr[i]>arr[j]):
             arr[i],arr[j] = arr[j],arr[i]
 
-print(selctionSort([89,75,41,23,65,12,36,10])
+arr = [89,75,41,23,65,12,36,10]
+
+print("Before Sorting", arr)
+print(selectionSort(arr))
+print("After sorting", arr)
